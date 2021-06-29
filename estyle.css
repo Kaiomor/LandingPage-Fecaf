@@ -1,0 +1,57 @@
+body{margin: 0; font-family:'Open Sans',sans-serif;
+}
+#initial{
+	background: url('img/fundo.jpg')no-repeat center top;
+    padding-bottom: 100px;
+}
+.logo img {max-width: 180px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.colunaConteudo{
+    max-width: 800px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.colunaConteudo div{
+    float:left;
+    width:50%; 
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+.colunaConteudo h3{
+    color:#9eee00;
+    text-align:center;
+}
+.colunaConteudo p{text-align: center;color: #fff}
+
+.formulario{
+    background:#67d2fe;
+    border:#134150 solid 3px;
+    border-radius:10px;
+    padding: 15px;
+
+}
+.formulario input[type="text"], .formulario input[type="email"], .formulario input[type="select"]{
+width: 100%;
+box-sizing: border-box;
+margin: 10px 0;
+border-radius: 200px;
+border: 0;
+padding: 8px 10px;
+box-shadow: inset 0px 1px 4px rgb(0 0 0/ 75%);
+}
+.formulario label{display:block}
+.formulario input[type="submit"]{
+    width: 80%;
+    margin: 20px auto 10px auto;
+    display: block;
+    background: #134150;
+    border: none;
+    padding: 10px 0;
+    border-radius: 20px;
+    color: #fff;
+}
+.destaque{color: #fff}
+.aceite{font-size: 14px}
